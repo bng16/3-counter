@@ -1,0 +1,75 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+main{
+  background: red;
+  width: 20vw;
+  height: 40vh;
+  border-radius: 25%;
+
+  position: absolute;
+  top:30%;
+  left: 40%;
+  display: flex;
+  flex-flow: column;
+}
+
+.display{
+  width: 80%;
+  height: 60%;
+  background: #fff;
+  border-radius: 25%;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  display: relative;
+}
+
+.button-box{
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+  
+}
+.button-cover{
+  width: 3.5vw;
+  height: 7vh;
+  border-radius: 50%;
+  background-color: #F3F3F3;
+  position: relative;
+}
+
+button{
+  width: 2vw;
+  height: 4vh;
+  border-radius: 50%;
+  position: absolute;
+  top: 22%;
+  left: 22%;
+  border-width:0px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+  background-color: #efeeee;
+}
+h1{
+  font-size: 150px;
+  position:absolute;
+  left: 28px;
+}
